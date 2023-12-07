@@ -1,0 +1,9 @@
+namePrefix: qa-
+commonAnnotations:
+  env: qa
+  
+bases:
+  - ../../base
+
+patchesStrategicMerge:
+- patch-nodep.yaml

@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+commonLabels:
+  owner: lalyos
+
+resources:
+- deployment-timber-backend.yaml
+- deployment-timber-frontend.yaml
+- service-timber-backend.yaml
+- service-timber-frontend.yaml
